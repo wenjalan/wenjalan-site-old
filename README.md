@@ -2,11 +2,20 @@
 An overengineered portfolio website.
 
 ## Developer Setup
-1. Initialize with npm
-`npm install`
-2. Start with run script
-`npm run start`
-3. Build with build script
-`npm run build`
-4. Start server
-`node build/app.js`
+### Server
+From the `server` directory:
+1. Run init  
+```npm init```
+2. Build  
+```npm run build```
+3. Start Development Server  
+```npm run start```
+4. Start Production Server  
+```npm run build && node build/app.js```
+
+### Client
+From the `client` directory:
+1. Run init  
+```npm init```
+2. Start Development Server  
+```npm run start```
