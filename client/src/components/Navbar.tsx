@@ -19,7 +19,10 @@ function Navbar(props: NavbarProps) {
       divider={<Divider orientation="vertical" flexItem />}
     >
       {props.items.map(item =>
-        <Button variant="text">
+        <Button 
+          variant="text"
+          key={item.label}  
+        >
           {item.label}
         </Button>
       )}
