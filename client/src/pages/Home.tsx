@@ -3,29 +3,6 @@ import Navbar, { NavbarItem } from "../components/Navbar"
 import Subtitle from "../components/Subtitle"
 import Title from "../components/Title"
 
-const navItems: NavbarItem[] = [
-  {
-    label: "Awards & Certifications",
-    href: "#"
-  },
-  {
-    label: "Education",
-    href: "#",
-  },
-  {
-    label: "Experience",
-    href: "#",
-  },
-  {
-    label: "Projects",
-    href: "#",
-  },
-  {
-    label: "Skills",
-    href: "#"
-  }
-]
-
 function Home() {
   return (
     <Container
@@ -39,7 +16,7 @@ function Home() {
       >
         <Title value={"Alan Wen"} />
         <Subtitle value={"Welcome to my overengineered website. Please enjoy your stay."} />
-        <Navbar items={navItems} />
+        <Navbar />
       </Stack>
     </Container>
   )

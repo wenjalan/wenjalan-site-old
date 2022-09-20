@@ -9,7 +9,30 @@ export interface NavbarProps {
   items: NavbarItem[]
 }
 
-function Navbar(props: NavbarProps) {
+const navItems: NavbarItem[] = [
+  {
+    label: "Awards & Certifications",
+    href: "#"
+  },
+  {
+    label: "Education",
+    href: "#",
+  },
+  {
+    label: "Experience",
+    href: "#",
+  },
+  {
+    label: "Projects",
+    href: "#",
+  },
+  {
+    label: "Skills",
+    href: "#"
+  }
+]
+
+function Navbar() {
   return (
     <Stack
       spacing={2}
@@ -18,7 +41,7 @@ function Navbar(props: NavbarProps) {
       justifyContent="center"
       divider={<Divider orientation="vertical" flexItem />}
     >
-      {props.items.map(item =>
+      {navItems.map(item =>
         <Button 
           variant="text"
           key={item.label}  
