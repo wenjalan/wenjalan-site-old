@@ -1,5 +1,5 @@
 # wenjalan-site
-An overengineered portfolio website.
+An overengineered portfolio website. See it [live](http://34.208.72.48:3000/).
 
 ## Developer Setup
 ### Serve App
