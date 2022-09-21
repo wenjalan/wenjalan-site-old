@@ -4,7 +4,7 @@ An overengineered portfolio website.
 ## Developer Setup
 ### Serve App
 From the `server` directory:
-1. Run serve
+1. Run serve  
 ```npm run serve```
 
 ### Server
