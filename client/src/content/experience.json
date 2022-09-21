@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Software Development Engineer Intern, Amazon",
+    "subtitle": "",
+    "date": "Summer 2022",
+    "bullets": [
+      "Developed LTMToolkit, a web service to diagnose, investigate and fix issues in Amazon's Enterprise Translation Orchestration systems, increasing productivity by 200%."
+    ]
+  },
+  {
+    "title": "Teaching Assistant, University of Washington Information School",
+    "subtitle": "",
+    "date": "Summer 2021 to Present",
+    "bullets": [
+      "Wrote a 90-minute introductory AI and Machine Learning lecture, shown to over 1,200 students."
+    ]
+  },
+  {
+    "title": "President, Society of Asian Scientists and Engineers @ UW",
+    "subtitle": "",
+    "date": "2019 to 2022",
+    "bullets": [
+      "Led the organization of networking events with Google, Amazon, Microsoft and Blue Origin for the benefit of AAPI student community at UW, with over 200 historical attendees."
+    ]
+  }
+]
