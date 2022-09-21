@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "build": "cd ../client && npm run build && cd ../server && npx tsc",
-    "start": "npx nodemon app.ts"
+    "start": "npx nodemon app.ts",
+    "serve": "npm run build && node build/app.js"
   },
   "author": "wenjalan@gmail.com",
   "license": "ISC",
