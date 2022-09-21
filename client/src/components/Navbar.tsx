@@ -1,4 +1,4 @@
-import { Stack, Divider, Button } from "@mui/material"
+import { Stack, Divider, Button, Link } from "@mui/material"
 
 export interface NavbarItem {
   label: string
@@ -11,24 +11,28 @@ export interface NavbarProps {
 
 const navItems: NavbarItem[] = [
   {
+    label: "Home",
+    href: "/",
+  },
+  {
     label: "Awards & Certifications",
-    href: "#"
+    href: "/awards",
   },
   {
     label: "Education",
-    href: "#",
+    href: "/education",
   },
   {
     label: "Experience",
-    href: "#",
+    href: "/experience",
   },
   {
     label: "Projects",
-    href: "#",
+    href: "/projects",
   },
   {
     label: "Skills",
-    href: "#"
+    href: "/skills"
   }
 ]
 
@@ -46,7 +50,7 @@ function Navbar() {
           variant="text"
           key={item.label}  
         >
-          {item.label}
+          {<Link href={item.href}>{item.label}</Link>}
         </Button>
       )}
     </Stack>
