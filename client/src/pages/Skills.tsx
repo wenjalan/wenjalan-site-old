@@ -1,5 +1,18 @@
+import { Container, Typography } from "@mui/material"
+import Header from "../components/Header"
+import Navbar from "../components/Navbar"
+import skillsJson from "../content/skills.json"
+
 function Skills() {
-  return <h1>Skills</h1>
+  return (
+    <Container>
+      <Navbar />
+      <Header value="Skills" />
+      <Typography>
+        {skillsJson.join(', ')}
+      </Typography>
+    </Container>
+  )
 }
 
 export default Skills
