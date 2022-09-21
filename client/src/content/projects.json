@@ -1,0 +1,18 @@
+[
+  {
+    "title": "LTMToolkit",
+    "subtitle": "Web service for Amazon's Enterprise Translations Organization.",
+    "date": "Summer 2022",
+    "bullets": [
+      "Reimplemented UI and extended endpoints of service for Amazon’s Enterprise Translation Orchestration team, allowing deprecation of old UI."
+    ]
+  },
+  {
+    "title": "Day by Day",
+    "subtitle": "First-place Android application submitted for SASEHack 2020.",
+    "date": "Autumn 2020",
+    "bullets": [
+      "Android application to evaluate users for mental illnesses and redirect them to local help. Implemented evaluation algorithm based on the APA’s Diagnostic and Statistical Manual of Mental Diseases."
+    ]
+  }
+]
